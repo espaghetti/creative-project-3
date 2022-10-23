@@ -46,6 +46,22 @@ h1 {
     color: pink;
 }
 
+a {
+   font-family: cursive;
+   color: black;
+   margin: 7px;
+   font-size: 22px;
+}
+
+#logo {
+    font-size: 28px;
+}
+
+a:hover {
+    color: black;
+    font-size: 22px;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -60,13 +76,13 @@ body {
 
 .menu-item {
     font-family: cursive;
-    font-size: 28px;
     color: #5c5c5c;
 }
 
 .menu-content-item {
     font-family: cursive;
     color: #5c5c5c;
+    font-size: 30px;
 }
 
 .photo-row {
@@ -84,7 +100,6 @@ body {
     align-items: center;
 }
 
-
 .food-pic {
     display: flex;
     flex:1;
@@ -98,8 +113,41 @@ img {
     object-fit: fill;
 }
 
+.full-page {
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.cart {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    align-items: flex-end;
+    margin: 30px 10px 30px 10px;
+}
+
+.cart-content {
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+}
+
+#cart-menu {
+    color: black;
+    font-family: inherit;
+    font-size: inherit;
+    font-color: inherit;
+    margin: none;
+    display: inline;
+}
+
 .footer {
     display: flex;
+    padding-top: 5px;
     justify-content: space-between;
     align-items: flex-end;
     margin: 30px 5px 10px 5px;
