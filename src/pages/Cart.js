@@ -33,6 +33,7 @@ const Cart = () => {
                 </div>
             </div>
         </div>
+        <div id="github-link">https://github.com/espaghetti/creative-project-3</div>
     </div>
   );
 };

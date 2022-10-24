@@ -57,6 +57,7 @@ const Menu = () => {
               <p>Phone: (801)-287-2253</p>
           </div>
       </div>
+      <div id="github-link">https://github.com/espaghetti/creative-project-3</div>
     </div>
     );
 };

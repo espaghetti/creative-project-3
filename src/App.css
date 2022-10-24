@@ -119,6 +119,11 @@ img {
     flex-direction: column;
 }
 
+#github-link {
+    color: grey;
+    margin: 5px;
+}
+
 .cart {
     display: block;
     justify-content: center;
