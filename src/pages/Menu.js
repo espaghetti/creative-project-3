@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App';
 
 const Menu = () => {
   return (
@@ -9,35 +7,35 @@ const Menu = () => {
         <div class='bakery-item-grid-container'>
           <div class='bakery-item'>
             Coconut Macaroons
-            <img src='images/coconut-macaroon.png'></img>
+            <img src={require('../images/coconut-macaroon.png')}></img>
           </div>
           <div class='bakery-item'>
             Berry Chantilly Cake
-            <img src='images/berry-chantilly-cake.png'></img>
+            <img src={require('../images/berry-chantilly-cake.png')}></img>
           </div>
           <div class='bakery-item'>
             Dulce de Leche Cookies
-            <img src='images/dulce-de-leche-cookies.png'></img>
+            <img src={require('../images/dulce-de-leche-cookies.png')}></img>
           </div>
           <div class='bakery-item'>
             Macaroons
-            <img src='images/pink-macaroons.jpg'></img>
+            <img src={require('../images/pink-macaroons.jpg')}></img>
           </div>
           <div class='bakery-item'>
             Oreo Cheesecake
-            <img src='images/oreo-cheesecake.jpg'></img>
+            <img src={require('../images/oreo-cheesecake.jpg')}></img>
           </div>
           <div class='bakery-item'>
             Mackle's'mores
-            <img src='images/macklesmores.png'></img>
+            <img src={require('../images/macklesmores.png')}></img>
           </div>
           <div class='bakery-item'>
             Sour Dough Loaf
-            <img src='images/sour-dough.png'></img>
+            <img src={require('../images/sour-dough.png')}></img>
           </div>
           <div class='bakery-item'>
             Mudslide Cookies
-            <img src='images/mudslide-cookies.jpg'></img>
+            <img src={require('../images/mudslide-cookies.jpg')}></img>
           </div>
         </div>
       </div>

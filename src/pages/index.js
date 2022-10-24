@@ -4,12 +4,11 @@ const Home = () => {
   return (
     <div>
         <h1>Welcome to my bakery!</h1>
-    
         <div class='photo-row'>
             <div class='photo-row-container'>
-                <img src='/images/oreo-cheesecake.jpg' class='food-pic'></img>
-                <img src='/images/pink-macaroons.jpg' class='food-pic'></img>
-                <img src='/images/oreo-cheesecake.jpg' class='food-pic'></img>
+                <img src={require('../images/oreo-cheesecake.jpg')} class='food-pic'></img>
+                <img src={require('../images/pink-macaroons.jpg')} class='food-pic'></img>
+                <img src={require('../images/oreo-cheesecake.jpg')} class='food-pic'></img>
             </div>
         </div>
         

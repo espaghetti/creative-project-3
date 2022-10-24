@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
         <nav class="navbar navbar-expand-lg navbar-light navbar-style menu">
             <LinkContainer to="/">
-                <a class="navbar-brand menu-item" id='logo' href="index.html">B's Bakery</a>
+                <a class="navbar-brand menu-item" id='logo'>B's Bakery</a>
             </LinkContainer>
             <div class='menu-content'>
                 <LinkContainer to="/menu">
